@@ -18,7 +18,7 @@ const taglines = [
     highlight: 'business',
   },
   {
-    text: 'Connected AI agents driving real-world workflows, outcomes.',
+    text: 'Connected AI agents driving real-world workflows and outcomes.',
     highlight: 'outcomes',
   },
   {

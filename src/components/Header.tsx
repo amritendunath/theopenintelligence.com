@@ -28,7 +28,7 @@ export default function Header() {
             <span className="relative h-7 w-[190px] sm:w-[230px] overflow-hidden">
               <span
                 key={`full-${isCompactBrand ? 'erase' : 'type'}`}
-                className={`absolute inset-0 text-base sm:text-xl font-medium tracking-tight whitespace-nowrap ${
+                className={`absolute inset-0 text-lg sm:text-xl font-medium tracking-tight whitespace-nowrap ${
                   isCompactBrand ? 'brand-erase' : 'brand-typewriter'
                 }`}
               >
@@ -39,7 +39,7 @@ export default function Header() {
               </span>
               <span
                 key={`oi-${isCompactBrand ? 'type' : 'hide'}`}
-                className={`absolute inset-0 text-base sm:text-xl font-medium whitespace-nowrap ${
+                className={`absolute inset-0 text-lg sm:text-xl font-medium whitespace-nowrap ${
                   isCompactBrand ? 'brand-typewriter-oi' : 'opacity-0'
                 }`}
               >

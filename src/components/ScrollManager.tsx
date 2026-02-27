@@ -21,9 +21,10 @@ export default function ScrollManager() {
     window.scrollTo(0, 0);
 
     requestAnimationFrame(() => {
+      window.scrollTo(0, 0);
       root.style.scrollBehavior = previousBehavior;
     });
-  }, [location.pathname, location.hash, navigationType]);
+  }, [location.key, location.hash, navigationType]);
 
   return null;
 }

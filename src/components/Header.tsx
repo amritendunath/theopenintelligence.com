@@ -20,7 +20,7 @@ export default function Header() {
   }, []);
 
   return (
-    <header className="sticky top-0 z-50 bg-[#F5F1EB] border-b border-gray-200">
+    <header className="sticky top-0 z-50 border-b border-gray-200 bg-[#F5F1EB]/65 shadow-sm backdrop-blur-sm supports-[backdrop-filter]:bg-[#F5F1EB]/50">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <Link to="/" className="flex items-center gap-2 -ml-0.5 sm:ml-0" aria-label="OpenIntelligence home">

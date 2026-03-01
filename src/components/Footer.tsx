@@ -57,8 +57,8 @@ export default function Footer() {
     'Incident Response',
     'Contact Support',
   ];
-
-  const products = [{ name: 'Agent Console', status: 'Coming Soon' }];
+  const productNames = ['Agents', 'Connectors', 'Models', 'Tools'];
+  const products = productNames.map((name) => ({ name, status: 'Coming Soon' }));
 
   const termsAndPolicies = [
     'Terms of Service',
